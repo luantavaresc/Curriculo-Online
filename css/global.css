@@ -4,7 +4,9 @@ body {
     color: #141414;
 }
 
-h1,
+h1 {
+    font-size: 3rem;
+}
 h2,
 h3,
 p {
@@ -20,6 +22,7 @@ ul {
 img {
     max-width: 100%;
     display: block;
+    border-radius: 50%;
 }
 
 .subtitulo {

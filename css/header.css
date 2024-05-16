@@ -20,6 +20,14 @@
     text-decoration: none;
     color: #141414;
     display: block;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background: #141414;
+    color: #f5f5f5;
+    transition: 0.5s;
 }
 
 @media (max-width: 800px) {
@@ -27,8 +35,6 @@
         flex-direction: column;
         gap: 40px;
         padding: 20px;
-    }
-    .header a {
         background: #f5f5f5;
         border-radius: 4px;
     }
